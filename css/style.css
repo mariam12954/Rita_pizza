@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+    z-index: 10;
+}
+.header{
+    width:100%;
+    height:55px;
+    background-color: rgb(216, 85, 52);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 30;
+}
+.icon1{
+    font-size: 50px;
+    color: rgb(52, 52, 92);
+}
+.list1{
+    float: right;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.list1 li{
+    list-style:none;
+    display: inline-block;
+    margin-left:  35px ;
+    font-size:20px;
+    margin-top: -5px;
+    padding-left: 10px;
+    color: white;
+}
+.list1m:hover .underline{
+    width:65px;
+    height: 2px;
+    margin:2px auto;
+    border: none;
+    background-color:white;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/pizza2.jpeg);
+    color: white;
+    position: relative;
+    z-index: 25;
+}
+.home_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+    background-color: rgb(216, 85, 52);
+}
+.home_content{
+    width: 40%;
+    height: 140px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%,-50%);
+    text-align: center;
+    z-index: 30;
+}
+.home_name1{
+        color: white;
+        font-size: 30px;
+        letter-spacing: 3px;
+ }
+.home_name2{
+        margin: 10px 0px;
+        color: white;
+        letter-spacing: 1px;
+}
+.home_a{
+    width: 120px;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 19px;
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-right: 14px;
+    background-color: blue;
+    color: cornsilk;
+}
+.home_a:hover{
+    background-color: rgb(128, 97, 97);
+}
+
+.home2_title{
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.home2_underline{
+    width:75px;
+    height: 8px;
+    margin:2px auto;
+    border: none;
+    background-color:blue;
+    border-radius: 2px;
+}
+.home2_title:hover .home2_underline{
+    width:100px;
+}
+.home2_content2{
+    float: left;
+    width: 30%;
+    background-color:white ;
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.rania{
+    margin: 0px 5%;
+}
+.home2_div1{
+    background-color: white;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2_div2{
+    background-color:white;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2_div3{
+    background-color:white;
+    width: 60%;
+    background-position: center;
+    margin: 0px 20%;
+    position: relative;
+}
+.home2_icon{
+    margin-right: 59%;
+    background-color: rgb(250, 146, 60);
+    width: 12px;
+    margin-left: 320px;
+    margin-top: -20px;
+}
+.home3_content{
+    float: left;
+    width: 30%;
+    background-color: rgb(128, 97, 97);
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.home3_div0_icon{
+    font-size: 40px;
+}
+.home3_div0_title{
+    margin-left: 50px;
+    margin-top: -30px;
+}
+.home3_div0_p{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+}
+
+
+.home3_div222_img222{
+    margin-left: 800px;
+    margin-top: 400px;
+    cursor: pointer;
+}
+.home3_div222_img222:hover{
+    transform: matrix3d(1.5,0,0.00,0,0.00,1.5,0.00,0,0,0,1,0,0,0,0,1);
+}
+.home3_div3333_img3333{
+    margin-left: 500px;
+    margin-top: -200px;
+    cursor: pointer;
+}
+.home3_div3333_img3333:hover{
+    transform: matrix3d(1.5,0,0.00,0,0.00,1.5,0.00,0,0,0,1,0,0,0,0,1);
+}
+.home44_content{
+    float: left;
+    width: 70%;
+    height: 120px;
+    background-position: center;
+    background-color: white;
+    text-align: left;
+    position: relative;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.section11 , .font {
+    font-size: 55px;
+    
+}
+.section11{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: black;  
+}
+.line1{
+    width: 200px;
+    color: black;
+}
+.line2{
+    width: 0px;
+    height: 60px;
+    color: black;
+    margin-top: -85px;
+    margin-left: 200px;
+}
+.font:hover{
+    color: chocolate;
+}
+.section_39{
+    margin-left: 240px;
+    margin-top: -90px;
+    
+}
+.section122 , .font122 {
+    font-size: 55px;
+    
+}
+.section122{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: black;  
+}
+.line3{
+    width: 200px;
+    color: black;
+}
+.line4{
+    width: 0px;
+    height: 60px;
+    color: black;
+    margin-top: -85px;
+    margin-left: 200px;
+}
+.font122:hover{
+    color: chocolate;
+}
+.section_105{
+    margin-left: 480px;
+    margin-top: -90px;
+    
+}
+.section125 , .font125 {
+    font-size: 55px;
+    
+}
+.section125{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: black;  
+}
+.line5{
+    width: 200px;
+    color: black;
+}
+.line6{
+    width: 0px;
+    height: 60px;
+    color: black;
+    margin-top: -85px;
+    margin-left: 200px;
+}
+.font125:hover{
+    color: chocolate;
+}
+.section_305{
+    margin-left: 720px;
+    margin-top: -90px;
+    
+}
+.section325 , .font325 {
+    font-size: 55px;
+    
+}
+.section325{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: black;  
+}
+.line7{
+    width: 200px;
+    color: black;
+}
+.line8{
+    width: 0px;
+    height: 60px;
+    color: black;
+    margin-top: -85px;
+    margin-left: 200px;
+}
+.font325:hover{
+    color: chocolate;
+}
+.home199_title{
+    color: black;
+    text-align: center;
+    margin-top: 500px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.home199_underline{
+    width:75px;
+    height: 8px;
+    margin:2px auto;
+    border: none;
+    background-color:blue;
+    border-radius: 2px;
+}
+.home199_title:hover .home199_underline{
+    width:100px;
+}
+.home199_p{
+    text-align: center;
+    word-spacing: 20px;
+}
+.home199{
+    perspective: 700px;
+}
+.home199_content{
+    width: 100%;
+    height: 400px;
+     margin-top: 80px;
+     background-color: white;
+}
+.section199 , .font199 ,.back199{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+}
+.section199{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top: 70px;
+}
+.font199{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza15.jpeg);
+    background-size: cover;
+}
+
+.font199 , .back199{
+    position: absolute;
+}
+.section199:hover{
+    transform: rotateY(180deg);
+}
+.back199{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza15.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon199{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.section299 , .font299 ,.back299{
+    width: 270px;
+    height: 300px;
+    background-color: gray;
+}
+.section299{
+    cursor:pointer;
+    margin: auto;
+    margin-right: 60px;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top:-300px;
+}
+.font299{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza13.jpeg);
+    background-size: cover;
+}
+
+.font299 , .back299{
+    position: absolute;
+}
+.section299:hover{
+    transform: rotateY(180deg);
+}
+.back299{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza13.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon299{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.section399 , .font399 ,.back399{
+    width: 270px;
+    height: 300px;
+    background-color: gray;
+}
+.section399{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    margin-left: 60px;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top: -300px;
+    
+}
+.font399{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza12.jpeg);
+    background-size: cover;
+}
+
+.font399 , .back399{
+    position: absolute;
+}
+.section399:hover{
+    transform: rotateY(180deg);
+}
+.back399{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza12.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon399{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.home1020{
+    perspective: 700px;
+}
+.home1020_content{
+    width: 100%;
+    height: 400px;
+     margin-top: 80px;
+     background-color: white;
+}
+.section1020 , .font1020 ,.back1020{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+}
+.section1020{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top: 70px;
+}
+.font1020{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza8.jpeg);
+    background-size: cover;
+}
+
+.font1020 , .back1020{
+    position: absolute;
+}
+.section1020:hover{
+    transform: rotateY(180deg);
+}
+.back1020{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza8.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon1020{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.section1030 , .font1030 ,.back1030{
+    width: 270px;
+    height: 300px;
+    background-color: gray;
+}
+.section1030{
+    cursor:pointer;
+    margin: auto;
+    margin-right: 60px;
+    position: relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top:-300px;
+}
+.font1030{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza13.jpeg);
+    background-size: cover;
+}
+
+.font1030 , .back1030{
+    position: absolute;
+}
+.section1030:hover{
+    transform: rotateY(180deg);
+}
+.back1030{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza13.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon1030{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.section1040 , .font1040 ,.back1040{
+    width: 270px;
+    height: 300px;
+    background-color: gray;
+}
+.section1040{
+    cursor:pointer;
+    margin: auto;
+    position: relative;
+    margin-left: 60px;
+    transition: 2s;
+    transform-style: preserve-3d;
+    color: blue;
+    margin-top: -300px;
+    
+}
+.font1040{
+    z-index: 1;
+    backface-visibility: hidden;
+    background-image: url(../image/pizza4.jpeg);
+    background-size: cover;
+}
+
+.font1040 , .back1040{
+    position: absolute;
+}
+.section1040:hover{
+    transform: rotateY(180deg);
+}
+.back1040{
+    color: blue;
+    opacity: 0.7;
+     backface-visibility: visible;
+     background-image: url(../image/pizza4.jpeg);
+     background-size: cover;
+    transform: rotateY(180deg);
+}
+.icon1040{
+    margin-top: 50%;
+    margin-left: 10px;
+    font-size: 40px;
+}
